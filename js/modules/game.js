@@ -154,6 +154,7 @@ export class CheckersGame extends Game { // 3. dziedziczenie
   #renderPanel() {
     this.#printer.renderPanel({
       activePlayerIndex: this.#getActivePlayerIndex(),
+      playersScore: this.#getPlayersScore()
     });
   }
 
