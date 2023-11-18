@@ -17,7 +17,7 @@ export class Board { // 1. enkapsulacja
   ];
 
   #promotionRowByPlayerIndex = ['0', '9'];
-  
+
   get fieldsList() {
     // tworzę kopię danych tylko do odczytu
     // nie chce pozwolić na modyfikację danych
